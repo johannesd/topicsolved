@@ -3,3 +3,21 @@
 	border: 3px solid #05be02;
 	padding: 5px 7px;
 }
+
+.post.accepted-answer dl.postprofile {
+	border-color: #09bd0440;
+}
+
+.badge-accepted-answer {
+	color: white;
+	background-color: #00BF00;
+	padding: 2px 10px;
+	margin-left: 10px;
+	border-radius: 4px;
+	font-size: 0.85em;
+	vertical-align: bottom;"
+}
+
+a:hover .badge-accepted-answer { 
+	text-decoration: underline;
+}
