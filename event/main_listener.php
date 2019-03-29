@@ -356,7 +356,7 @@ class main_listener implements EventSubscriberInterface
 				}
 				else
 				{
-					$post_row['POST_SUBJECT'] .= $this->topicsolved->icon($topic_data['forum_solve_color']);
+					$post_row['POST_SUBJECT'] .= '&nbsp;&nbsp; <span style="color: white; background-color: #00BF00; padding: 2px 10px; border-radius: 4px;font-size: 0.85em; vertical-align: bottom;">Accepted answer</span>';
 				}
 			}
 		}
